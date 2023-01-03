@@ -1,0 +1,161 @@
+h2 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+   .nav li{
+    float: right;
+
+   margin-right: 100px;
+   margin-top: 30px;
+    color: aliceblue;
+   }
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(52, 65, 75);
+    color: aliceblue;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 60px;
+
+}
+
+.header{
+    background-color: rgb(52, 65, 75);
+    height: 90px;
+    width: 100%;
+
+   }
+   *{
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+    ul{
+     list-style-type: none;
+    }
+
+    .header h1{
+     float: left;
+     color: aliceblue;
+     font-size: 25px;
+     padding-right: 50px;
+     margin-top: 25px;
+     margin-left: 50px;
+   
+    }
+
+body {
+    margin: 0px;
+    background-image: url(https://www.jm.se/globalassets/jm.se/bostader/ostergotland/linkoping/valla/ikon/ikon-linkoping-valla-lagenhet-interior-kok-vardagsrum-3d.jpg?2560);
+    background-size: cover;
+}
+
+nav {
+text-align: center;
+
+}
+
+.nav-link:hover {
+    color: rgb(183, 187, 191);
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    padding: 30px;
+}
+
+a{
+    color: aliceblue;
+    position: absolute;
+    padding-right: 50px;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+input[type=text], select, textarea {
+
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px rgb(52, 65, 75);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 70%;
+    background-color: rgb(52, 65, 75);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+
+}
+  
+input[type=submit]:hover {
+    background-color: rgba(52, 65, 75, 0.7);
+}
+
+.button {
+    text-align: center;
+}
+
+label {
+    color: aliceblue;
+    display: inline-block;
+  }
+
+  .border {
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    background: rgba(71, 86, 99, 0.8);
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+ 
+  }
+  
+  .label {
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .input {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }  
+
+.adres {
+    float: left;
+    background-color: rgb(52, 65, 75);
+    width: 100%;
+
+}
+
+/*
+.dark-mode {
+  background-color: rgb(52, 65, 75);
+  color: aliceblue;
+} */ 
